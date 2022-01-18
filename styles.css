@@ -79,6 +79,11 @@ hr {
     width: 275px;
 }
 
+.line {
+    background-color: hsl(215, 51%, 70%);
+    height: 2px;
+}
+
 .icono {
     width: 15px;
     height: 15px;
