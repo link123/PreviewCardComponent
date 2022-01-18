@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,400&family=Spartan:wght@400;500;700&family=The+Nautigal&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 620px;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    width: 330px;
+    height: 520px;
+    border-radius: 15px;
+    margin-top: 60px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgCube {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+#imageAvatar {
+    width: 35px;
+    height: 35px;
+    margin-right: 22px;
+}
+
+.cardAvatar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.contenedorParrafo {
+    margin-top: 9px;
+}
+
+.contenedorParrafo .name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+h4 {
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+}
+
+p {
+    font-size: 13, 5px;
+    color: hsl(215, 51%, 70%);
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+}
+
+hr {
+    width: 275px;
+}
+
+.icono {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.etiquetaIcono {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorEtiquetasIconos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.etiquetaIcono h4 {
+    margin-top: 5px;
+    margin-right: 100px;
+}
+
+
+/*--- fotter -----*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
