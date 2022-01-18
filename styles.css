@@ -43,6 +43,14 @@ body {
     margin-top: 15px;
 }
 
+.foto {
+    border: 1.6px solid white;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
 .contenedorParrafo {
     margin-top: 9px;
 }
